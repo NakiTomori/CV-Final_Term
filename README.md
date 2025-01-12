@@ -2,3 +2,8 @@ Driver to get Trained Model and dataset traned that model: https://drive.google.
 Prefer using Colab to training new model if need
 
 Use pip install -r requirements.txt to install necessary library to use this code
+
+pip install flask 
+pip install pillow
+pip install torch
+
