@@ -62,12 +62,15 @@ def process_image():
 def process_placeholder(input_path, output_path):
     # Example function: simply copy the input file to processed folder
     process_img, text, score = process_image_model(input_path)
-    for r in process_img:
-        im_array = r.plot()
-        im = Image.fromarray(im_array[..., ::-1])
-        im.show()
-        im.save(output_path)
-    return text, score
+    if process_img != 0 and text != 0 and score != 0:
+        for r in process_img:
+            im_array = r.plot()
+            im = Image.fromarray(im_array[..., ::-1])
+            im.show()
+            im.save(output_path)
+        return text, score
+    else:
+        return "No license plate detected"
 
 @app.route('/processed/<filename>')
 def show_processed_image(filename):
