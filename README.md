@@ -3,7 +3,6 @@ Prefer using Colab to training new model if need
 
 Use pip install -r requirements.txt to install necessary library to use this code
 
-pip install flask 
-pip install pillow
-pip install torch
+pip install flask pillow torch
+
 
