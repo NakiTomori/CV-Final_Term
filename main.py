@@ -40,6 +40,7 @@ def process_image_model(img_path):
                 print("License plate text score: ",license_plate_text_score)
                 # #write results
                 # write_csv(results, './test.csv')
+            return license_plates, license_plate_text, license_plate_text_score
         else:
-            print("No license plate detected")
-    return license_plates, license_plate_text, license_plate_text_score
+            return "No license plate detected"
+
