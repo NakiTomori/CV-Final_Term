@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image</title>
+</head>
+<body>
+    <h1>Image</h1>
+    <img src="/{{ folder }}/{{ filename }}" alt="Uploaded Image" style="max-width:100%;">
+    {% if folder == 'uploads' %}
+        <form action="/process" method="post">
+            <input type="hidden" name="filename" value="{{ filename }}">
+            <button type="submit">Process Image</button>
+        </form>
+    {% endif %}
+    <br><a href="/">Back to Upload</a>
+</body>
+</html>
