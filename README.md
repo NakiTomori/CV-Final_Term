@@ -4,7 +4,7 @@ In the context of increasingly rapid urbanization, the demand for smart and conv
 # Link to get Report of this Responsitory:
 https://drive.google.com/drive/folders/1N2G1ANQcYLG9XjItSrhE_r3I8CR_31_P?usp=drive_link
 
-# Link to get Trained Model and dataset traned that model: 
+# Link to get Trained Model and dataset trained that model: 
 https://drive.google.com/drive/folders/1rX3t0Z-pYG0sitKzfSb7Y5oLzz07YCLK?usp=sharing
 ##### Dataset from: https://universe.roboflow.com/test-ytjck/license-plate-detection-dataset-gobzm
 => Prefer using Colab to training new model if need
