@@ -15,7 +15,8 @@ Use pip install -r requirements.txt to install necessary library to use this cod
 git clone https://github.com/NakiTomori/CV-Final_Term
 
 # Folder Structure:
-```project/
+```
+project/
 ├── app.py                # File chính chứa mã nguồn Flask
 ├── main.py                # File chính chứa mã nguồn function
 ├── util.py                # File phụ chứa mã nguồn function
