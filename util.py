@@ -166,6 +166,7 @@ def read_license_plate(license_plate_crop):
     text = text.upper().replace('[','')
     text = text.upper().replace(']','')
     text = text.upper().replace(',','')
+    text = text.upper().replace("'",'')
 
     print(text)
     # print(score)
