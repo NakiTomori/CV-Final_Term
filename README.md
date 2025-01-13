@@ -1,4 +1,4 @@
-# Project for detect license plates and export license plates
+# Project for detect license plates and export license plates using YOLOv8
 In the context of increasingly rapid urbanization, the demand for smart and convenient transportation solutions has become more urgent than ever. The idea of turning license plates into a personal "digital key" has introduced a new direction, promising numerous benefits for both users and society. With the "digital key," a license plate is no longer merely an identifier but transforms into a versatile tool that connects users to a wide range of smart urban services.
 
 # Link to get Report of this Responsitory:
