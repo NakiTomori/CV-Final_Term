@@ -13,7 +13,7 @@ model_path = 'phat_hien_bien_so_xe.pt'
 license_plate_detector = YOLO(model_path)
 
 # read and load image
-img_path = 'test9.jpg'
+img_path = 'test2.png'
 img = cv2.imread(img_path)
 
 # detect license plates
@@ -42,5 +42,7 @@ for license_plate in license_plates:
             print("License plate text score: ",license_plate_text_score)
             # #write results
             # write_csv(results, './test.csv')
+        # cv2.imshow("thresh", license_plate_crop_thresh)
+        # cv2.waitKey()
     else:
         print("No license plate detected")
