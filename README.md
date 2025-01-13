@@ -17,17 +17,17 @@ git clone https://github.com/NakiTomori/CV-Final_Term
 # Folder Structure:
 ```
 project/
-├── app.py                # File chính chứa mã nguồn Flask
-├── main.py                # File chính chứa mã nguồn function
-├── util.py                # File phụ chứa mã nguồn function
-├── templates/            # Thư mục chứa các tệp HTML
-│   ├── index.html        # Trang chính để tải ảnh
-│   ├── display_image.html # Trang hiển thị ảnh đã tải hoặc xử lý
-├── static/               # Thư mục chứa tài nguyên tĩnh (CSS, JS, ảnh, v.v.)
-├── uploads/              # Thư mục lưu ảnh tải lên
-├── processed/            # Thư mục lưu ảnh đã xử lý
-├── requirements.txt      # Danh sách các thư viện Python cần cài đặt
-└── README.md             # Tệp mô tả dự án
+├── app.py                # Main file containing Flask source code
+├── main.py               # Main file containing function source code
+├── util.py               # Supporting file containing function source code
+├── templates/            # Folder containing HTML files
+│   ├── index.html        # Main page for uploading images
+│   ├── display_image.html # Page for displaying uploaded or processed images
+├── static/               # Folder containing static assets (CSS, JS, images, etc.)
+├── uploads/              # Folder for storing uploaded images
+├── processed/            # Folder for storing processed images
+├── requirements.txt      # List of Python libraries to install
+└── README.md             # Project description file
 ```
 
 
