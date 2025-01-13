@@ -6,7 +6,7 @@ https://drive.google.com/drive/folders/1N2G1ANQcYLG9XjItSrhE_r3I8CR_31_P?usp=dri
 
 # Link to get Trained Model and dataset traned that model: 
 https://drive.google.com/drive/folders/1rX3t0Z-pYG0sitKzfSb7Y5oLzz07YCLK?usp=sharing
---- Dataset from: https://universe.roboflow.com/test-ytjck/license-plate-detection-dataset-gobzm
+##### Dataset from: https://universe.roboflow.com/test-ytjck/license-plate-detection-dataset-gobzm
 => Prefer using Colab to training new model if need
 
 # Install requirements library:
