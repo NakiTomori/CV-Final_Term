@@ -30,4 +30,9 @@ project/
 └── README.md             # Project description file
 ```
 
+# User Manual
+### To runs this website for detect license plates use this code:
+```
+python app.py
+```
 
